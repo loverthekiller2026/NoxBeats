@@ -1,10 +1,8 @@
 services:
   - type: web
-    name: noxbeats
-    runtime: docker
-    dockerfilePath: ./Dockerfile
+    name: NOXbeats
+    env: python
     plan: free
-    autoDeploy: false
     envVars:
       - key: API_ID
         sync: false
