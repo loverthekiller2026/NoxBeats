@@ -1,10 +1,10 @@
 services:
-  - type: worker
+  - type: web
     name: noxbeats
     runtime: docker
     dockerfilePath: ./Dockerfile
     plan: starter
-    autoDeploy: true
+    autoDeploy: false
     envVars:
       - key: API_ID
         sync: false
@@ -31,9 +31,9 @@ services:
       - key: API_KEY
         sync: false
       - key: SUPPORT_CHANNEL
-        value: "https://t.me/PBX_UPDATE"
+        value: "https://t.me/HQ_Tracks"
       - key: SUPPORT_CHAT
-        value: "https://t.me/PBXCHATS"
+        value: "https://t.me/test_bot_group_linkss"
       - key: DURATION_LIMIT
         value: "60"
       - key: QUEUE_LIMIT
@@ -45,4 +45,4 @@ services:
       - key: COOKIES_URL
         sync: false
       - key: SOURCE_URL
-        value: "https://github.com/Badmunda05/NoxBeats/fork"
+        value: "https://github.com/loverthekiller2026/NoxBeats/blob/main"
