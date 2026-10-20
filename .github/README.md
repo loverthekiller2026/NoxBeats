@@ -56,6 +56,9 @@ Deploy using one of the supported platforms:
   <a href="https://railway.app/new/template?template=https://github.com/loverthekiller2026/NoxBeats"><img src="https://img.shields.io/badge/Deploy%20to-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Deploy to Railway"></a>
 </p>
 
+  [![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com/deploy?repo=https://github.com/loverthekiller2026/NoxBeats)
+
+
 For VPS deployment, use Docker:
 
 ```bash
