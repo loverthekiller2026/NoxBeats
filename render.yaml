@@ -27,12 +27,6 @@ services:
       - key: SESSION
         sync: false
 
-      - key: SESSION2
-        sync: false
-
-      - key: SESSION3
-        sync: false
-
       - key: SESSION_TYPE
         value: "pyrogram"
 
