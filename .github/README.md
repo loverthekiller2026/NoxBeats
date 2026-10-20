@@ -53,7 +53,7 @@ Deploy using one of the supported platforms:
   <a href="https://dashboard.heroku.com/new?template=https://github.com/Badmunda05/NoxBeats"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy to Heroku"></a>
   <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Badmunda05/NoxBeats&branch=main&name=noxbeats"><img src="https://img.shields.io/badge/Deploy%20to-Koyeb-121212?style=for-the-badge&logo=koyeb&logoColor=white" alt="Deploy to Koyeb"></a>
   <a href="https://render.com/deploy?repo=https://github.com/Badmunda05/NoxBeats"><img src="https://img.shields.io/badge/Deploy%20to-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Deploy to Render"></a>
-  <a href="https://railway.app/new/template?template=https://github.com/Badmunda05/NoxBeats"><img src="https://img.shields.io/badge/Deploy%20to-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Deploy to Railway"></a>
+  <a href="https://railway.app/new/template?template=https://github.com/loverthekiller2026/NoxBeats"><img src="https://img.shields.io/badge/Deploy%20to-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Deploy to Railway"></a>
 </p>
 
 For VPS deployment, use Docker:
