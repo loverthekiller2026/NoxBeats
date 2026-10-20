@@ -3,7 +3,7 @@ services:
     name: noxbeats
     runtime: docker
     dockerfilePath: ./Dockerfile
-    plan: starter
+    plan: free
     autoDeploy: false
     envVars:
       - key: API_ID
