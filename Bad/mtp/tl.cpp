@@ -271,12 +271,21 @@ json Schema::read_value(Reader& r, const std::string& type) const {
         for (std::int32_t i = 0; i < cnt; ++i) a.push_back(read_value(r, inner));
         return a;
     }
-    if (type == "Object" || type == "X" || type == "!X") {
-        auto id = r.u32();
-        if (id == kGzipPacked) {
-            Bytes z = r.tlbytes(), plain = gunzip(z.data(), z.size());
-            Reader r2{plain.data(), plain.size()};
-            return read_value(r2, "Object");
+        if (id == kVectorId) {
+        std::int32_t cnt = r.i32();
+
+        if (cnt < 0 || static_cast<std::size_t>(cnt) > r.n / 4) {
+            throw TlError("TL: bad generic vector length");
+        }
+
+        json a = json::array();
+
+        for (std::int32_t i = 0; i < cnt; ++i) {
+            a.push_back(read_value(r, "Object"));
+        }
+
+        return a;
+    }
         }
         if (id == kBoolTrue) return true;
         if (id == kBoolFalse) return false;
